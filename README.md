@@ -79,9 +79,13 @@ python color_quantization.py -i path/to/the/image.jpg
 
 #### Parameteres:
 -i, --image: Path to the input image file (default image_0.jpeg)
+
 -ha, --hue_adjustment: Hue adjustment value (default: 0.1)
+
 -sa, --saturation_adjustment: Saturation adjustment value (default: 0.1)
+
 -ba, --brightness_adjustment: Brightness adjustment value (default: 0.1)
+
 -lf, --lightness_factor: Lightness factor value (default: 10)
 
 
