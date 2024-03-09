@@ -29,34 +29,71 @@ pip install -r requirements.txt
 
 ```
 
-## Highlighting Similar Colors
+## Input Images:
 
-```
-
-python similar_colors.py -i path/to/your/image.jpg
-
-```
-
-## Color Quantization
-
-
-```
-python color_quantization.py -i path/to/your/image.jpg
-
-```
+- image_0.jpeg
+- image_1.jpeg
+- image_2.jpeg
+- image_3.jpeg
+- image_4.jpeg
+- image_5.jpeg
+- image_6.jpeg
+- image_7.jpeg
 
 ## Grayscale Conversion
 
 ```
 
-python grayscale_conversion.py -i path/to/your/image.jpg
+python grayscale_conversion.py -i path/to/the/image.jpg
 
 
 ```
+
+### Example:
+
+<img width="654" alt="image" src="https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs/assets/49990436/79ae3e6c-b455-463d-a443-a703a6d0ed75">
+
+
+## Color Quantization
+
+
+```
+python color_quantization.py -i path/to/the/image.jpg
+
+```
+
+### Example:
+
+<img width="486" alt="image" src="https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs/assets/49990436/a2383e6a-eb8c-4372-a339-6b2b39ddac30">
+
+
 
 ## Color Adjustment
 
 ```
-python color_adjustment.py -i path/to/your/image.jpg -ha 0.1 -sa 0.1 -ba 0.1 -lf 10
+python color_adjustment.py -i path/to/the/image.jpg -ha 0.1 -sa 0.1 -ba 0.1 -lf 10
 
 ```
+
+### Example:
+
+<img width="486" alt="image" src="https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs/assets/49990436/6b1a4a49-fc65-42dd-98d3-2bf6d7548c15">
+
+
+## Highlighting Similar Colors
+
+```
+
+python similar_colors.py -i path/to/the/image.jpg
+
+```
+
+### Example:
+
+<img width="386" alt="image" src="https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs/assets/49990436/d0bbf818-e5c2-4c72-8b2a-8d781ea7f82d">
+
+
+<img width="486" alt="image" src="https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs/assets/49990436/41e40e0b-78af-489a-8279-1f72a0606e45">
+
+
+
