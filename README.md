@@ -1,4 +1,4 @@
-# Image Processing Toolkit
+# Digital Images and Color Spaces
 
 This repo provides a set of utilities for various image processing tasks, including color picking, color quantization, grayscale conversion, and color adjustment.
 
@@ -16,27 +16,47 @@ The repo consists of several Python scripts, each performing a specific image pr
 
 1. Clone the repository to your local machine:
 
-```bash
+```
 git clone https://github.com/your_username/image-processing-toolkit.git
 cd image-processing-toolkit
+```
 
 
-Install the required Python packages:
+## Install the required Python packages:
 
-``` pip install -r requirements.txt ```
+``` 
+pip install -r requirements.txt
 
-Highlighting Similar Colors
+```
+
+## Highlighting Similar Colors
+
+```
 
 python similar_colors.py -i path/to/your/image.jpg
 
-Color Quantization
+```
 
+## Color Quantization
+
+
+```
 python color_quantization.py -i path/to/your/image.jpg
 
-Grayscale Conversion
+```
+
+## Grayscale Conversion
+
+```
 
 python grayscale_conversion.py -i path/to/your/image.jpg
 
-Color Adjustment
 
+```
+
+## Color Adjustment
+
+```
 python color_adjustment.py -i path/to/your/image.jpg -ha 0.1 -sa 0.1 -ba 0.1 -lf 10
+
+```
