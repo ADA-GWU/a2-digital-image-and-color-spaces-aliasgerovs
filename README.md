@@ -18,7 +18,7 @@ The repo consists of several Python scripts, each performing a specific image pr
 
 ```
 git clone https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs.git
-cd image-processing-toolkit
+cd a2-digital-image-and-color-spaces-aliasgerovs
 ```
 
 
