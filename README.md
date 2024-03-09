@@ -17,7 +17,7 @@ The repo consists of several Python scripts, each performing a specific image pr
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/your_username/image-processing-toolkit.git
+git clone https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs.git
 cd image-processing-toolkit
 ```
 
