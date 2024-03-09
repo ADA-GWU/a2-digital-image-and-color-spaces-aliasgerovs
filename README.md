@@ -42,6 +42,10 @@ pip install -r requirements.txt
 
 ## Grayscale Conversion
 
+#### Parameteres:
+
+`-i`: Input Image Name
+
 ```
 
 python grayscale_conversion.py -i path/to/the/image.jpg
@@ -56,6 +60,9 @@ python grayscale_conversion.py -i path/to/the/image.jpg
 
 ## Color Quantization
 
+#### Parameteres:
+
+`-i`: Input Image Name
 
 ```
 python color_quantization.py -i path/to/the/image.jpg
@@ -82,6 +89,10 @@ python color_adjustment.py -i path/to/the/image.jpg -ha 0.1 -sa 0.1 -ba 0.1 -lf 
 
 ## Highlighting Similar Colors
 
+#### Parameteres:
+
+`-i`: Input Image Name
+
 ```
 
 python similar_colors.py -i path/to/the/image.jpg
@@ -89,9 +100,6 @@ python similar_colors.py -i path/to/the/image.jpg
 ```
 
 ### Example:
-
-<img width="386" alt="image" src="https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs/assets/49990436/d0bbf818-e5c2-4c72-8b2a-8d781ea7f82d">
-
 
 <img width="486" alt="image" src="https://github.com/ADA-GWU/a2-digital-image-and-color-spaces-aliasgerovs/assets/49990436/41e40e0b-78af-489a-8279-1f72a0606e45">
 
