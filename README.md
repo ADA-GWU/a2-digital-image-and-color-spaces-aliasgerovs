@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 #### Parameteres:
 
-`-i`: Input Image Name
+-i, --image: Path to the input image file (default image_0.jpeg)
 
 ```
 
@@ -62,7 +62,7 @@ python grayscale_conversion.py -i path/to/the/image.jpg
 
 #### Parameteres:
 
-`-i`: Input Image Name
+-i, --image: Path to the input image file (default image_0.jpeg)
 
 ```
 python color_quantization.py -i path/to/the/image.jpg
@@ -77,11 +77,12 @@ python color_quantization.py -i path/to/the/image.jpg
 
 ## Color Adjustment
 
-####   -i, --image: Path to the input image file (required)
-####  -ha, --hue_adjustment: Hue adjustment value (default: 0.1)
-####   -sa, --saturation_adjustment: Saturation adjustment value (default: 0.1)
-####   -ba, --brightness_adjustment: Brightness adjustment value (default: 0.1)
-####   -lf, --lightness_factor: Lightness factor value (default: 10)
+#### Parameteres:
+-i, --image: Path to the input image file (default image_0.jpeg)
+-ha, --hue_adjustment: Hue adjustment value (default: 0.1)
+-sa, --saturation_adjustment: Saturation adjustment value (default: 0.1)
+-ba, --brightness_adjustment: Brightness adjustment value (default: 0.1)
+-lf, --lightness_factor: Lightness factor value (default: 10)
 
 
 ```
@@ -98,7 +99,7 @@ python color_adjustment.py -i path/to/the/image.jpg -ha 0.1 -sa 0.1 -ba 0.1 -lf 
 
 #### Parameteres:
 
-`-i`: Input Image Name
+-i, --image: Path to the input image file (default image_0.jpeg)
 
 ```
 
